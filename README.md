@@ -26,7 +26,7 @@ c) The mean order_amount of the dataset with outliers removed is $293.72, which 
 
 #### Query
 ```sql
-SELECT * FROM [Orders]
+SELECT COUNT(*) FROM [Orders]
 WHERE ShipperID == (
   SELECT ShipperID FROM [Shippers]
   where ShipperName = "Speedy Express"

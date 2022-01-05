@@ -1,4 +1,4 @@
-# shopify-data-intern-challenge-fall2021
+# shopify-data-intern-challenge-summer2022
 ## Question 1
 Analysis for question 1 is performed [here](./q1.py)
 
